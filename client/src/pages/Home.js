@@ -1,10 +1,10 @@
 import React, { Component } from "react";
-import { Container } from "../components/Grid/Grid";
-import Nav from "../components/Nav/Nav";
-import Jumbotron from "../components/Jumbotron/Jumbotron";
-import {Input, SubmitBtn} from "../components/Search/Search";
-import API from "../utils/API";
-import ResultList from "../components/ResultList/ResultList";
+import { Container } from "../src/components/Grid/Grid";
+import Nav from "../src/components/Nav/Nav";
+import Jumbotron from "../src/components/Jumbotron/Jumbotron";
+import {Input, SubmitBtn} from "../src/components/Search/Search";
+import API from "../src/utils/API";
+import ResultList from "../src/components/ResultList/ResultList";
 
 class Home extends Component {
 
